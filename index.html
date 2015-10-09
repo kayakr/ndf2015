@@ -4,7 +4,7 @@
     <head>
         <meta charset="utf-8">
 
-        <title>NDF 2015 - Catalyst</title>
+        <title>NDF 2015 - UC & Catalyst</title>
 
         <meta name="author" content="Catalyst">
 
@@ -47,6 +47,10 @@
 
         <!-- Please put any custom styles here -->
         <style>
+ .reveal h1.catalyst-logo {
+    background: url(../../img/uc_catalyst_logos.png) no-repeat 50% 0/70% auto; 
+    height: 200px;
+  }
 
         </style>
     </head>
@@ -57,75 +61,95 @@
 
             <!-- Any section element inside of this container is displayed as a slide -->
             <div class="slides">
-                <!-- Cover slide -->
-                <section>
-                    <h1 class="catalyst-logo">University of Canterbury & Catalyst</h1>
-                    <h3>Extending QuakeStudies for a Learning Legacy</h3>
-                    <p class="small-text">
-                        Presented by <a href="http://www.arts.canterbury.ac.nz/english/people/thomson.shtml">Christopher Thomson</a> (UC) & <a href="#">Jonathan Hunt</a> (Catalyst)
-                    </p>
-                </section>
+              <!-- Cover slide -->
+              <section class="ndf-first" style="top:0">
+                <h1 class="catalyst-logo">Catalyst</h1>
+                <h3>Extending QuakeStudies for a Learning Legacy</h3>
+                <p class="small-text">
+                    Presented by <a href="http://www.arts.canterbury.ac.nz/english/people/thomson.shtml">Dr Chris Thomson</a> (UC) & <a href="#">Jonathan Hunt</a> (Catalyst)
+                </p>
+                <p>&nbsp;</p>
+                <p>&nbsp;</p>
+              </section>
 
+              <!-- Slide with list items (list items are displayed at once) -->
+              <section data-background="/img/ROSS9581_bw.jpg">
+                <h2>Who are we?</h2>
+                <h3>Chris Thomson</h3>
+                <ul>
+                  <li>Lecturer</li>
+                  <li>List item</li>
+                </ul>
+                <h3>Jonathan Hunt</h3>
+                <ul>
+                  <li>Developer</li>
+                  <li>List item</li>
+                </ul>
+              </section>
+
+
+              <section>
                 <!-- Section title slide with big colour dot -->
                 <section class="title-slide">
-                    <h2 class="orange">Title goes here</h2>
+                  <h2 class="orange">Who are we?</h2>
+                </section>
+              </section>
+
+              <!-- Slide with a large title -->
+              <section >
+                <h2>Large title</h2>
+                <aside class="notes">
+                    This will only display in the notes window.
+                </aside>
+              </section>
+
+              <!-- Large image slide -->
+              <section class="image-slide">
+                <h2>Title</h2>
+                <img src="img/800x400.gif" alt="">
+              </section>
+
+              <!-- Slide with list items (list items are displayed at once) -->
+              <section>
+                <h3>List title</h3>
+                <ul>
+                  <li>List item <img class="img-right" src="img/300x400.gif" alt="Placeholder image"></li>
+                  <li>List item</li>
+                  <li>List item</li>
+                </ul>
+              </section>
+
+              <!-- Slide with list items (fragmented list items) -->
+              <section>
+                <h3>Fragmented list</h3>
+                <ul>
+                  <li class="fragment">List item</li>
+                  <li class="fragment">List item</li>
+                  <li class="fragment">List item <img class="img-centered" src="img/500x200.gif" alt="Placeholder image"></li>
+                </ul>
+              </section>
+
+              <!-- Slide with vertical slides underneath  -->
+              <section>
+                <!-- Horizontal slide (This is one the same level as slide above) -->
+                <section class="title-slide banner-3">
+                    <h2 class="yellow">Title (press down to see vertical slides)</h2>
                 </section>
 
-        <!-- Slide with a large title -->
-        <section>
-          <h2>Large title</h2>
-                    <aside class="notes">
-                        This will only display in the notes window.
-                    </aside>
-        </section>
-
-        <!-- Large image slide -->
-        <section class="image-slide">
-          <h2>Title</h2>
-          <img src="img/800x400.gif" alt="">
-        </section>
-
-        <!-- Slide with list items (list items are displayed at once) -->
-        <section>
-          <h3>List title</h3>
-          <ul>
-            <li>List item <img class="img-right" src="img/300x400.gif" alt="Placeholder image"></li>
-            <li>List item</li>
-            <li>List item</li>
-          </ul>
-        </section>
-
-        <!-- Slide with list items (fragmented list items) -->
-        <section>
-          <h3>Fragmented list</h3>
-          <ul>
-            <li class="fragment">List item</li>
-            <li class="fragment">List item</li>
-            <li class="fragment">List item <img class="img-centered" src="img/500x200.gif" alt="Placeholder image"></li>
-          </ul>
-        </section>
-
-                <!-- Slide with vertical slides underneath  -->
+                <!-- The following slides are vertical, use down arrow key to navigate -->
+                <!-- Centered paragraph  -->
                 <section>
-                    <!-- Horizontal slide (This is one the same level as slide above) -->
-                    <section class="title-slide banner-3">
-                        <h2 class="yellow">Title (press down to see vertical slides)</h2>
-                    </section>
+                  <h3>Paragraph</h3>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris at scelerisque eros. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Aliquam placerat posuere nibh vel dapibus.</p>
+                </section>
 
-                    <!-- The following slides are vertical, use down arrow key to navigate -->
-          <!-- Centered paragraph  -->
-          <section>
-            <h3>Paragraph</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris at scelerisque eros. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Aliquam placerat posuere nibh vel dapibus.</p>
-          </section>
-
-          <!-- Blockquote  -->
-          <section>
-            <h3>Blockquote</h3>
-            <blockquote class="quotation-marks">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris at scelerisque eros. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Aliquam placerat posuere nibh vel dapibus.
-            </blockquote>
-          </section>
+                <!-- Blockquote  -->
+                <section>
+                  <h3>Blockquote</h3>
+                  <blockquote class="quotation-marks">
+                              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris at scelerisque eros. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Aliquam placerat posuere nibh vel dapibus.
+                  </blockquote>
+                </section>
 
           <!-- Nested lists-->
           <section>
@@ -208,6 +232,10 @@ function linkify( selector ) {
 
                 theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
                 transition: Reveal.getQueryHash().transition || 'none', // default/cube/page/concave/zoom/linear/fade/none
+
+                // Bounds for smallest/largest possible scale to apply to content
+                minScale: .8,
+                //maxScale: 1
 
                 // Parallax scrolling
                 // parallaxBackgroundImage: 'https://s3.amazonaws.com/hakim-static/reveal-js/reveal-parallax-1.jpg',
