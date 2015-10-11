@@ -83,6 +83,103 @@
                 <p>&nbsp;</p>
               </section>
 
+              <!-- Large image slide -->
+              <section>
+                <h3>QS data structure (simplified)</h3>
+                <img class="img-centered" src="/img/quakestudies_data_structure.svg" width="600" height="400"/>
+                <p>Not shown: Format, Audience, Role, Event, etc.<br/>
+                Full diagram <a href="https://quakestudies.canterbury.ac.nz/owl/ceismic.gif"/>.gif</a>, ontology <a href="https://github.com/ucdh/quakestudies-docs/tree/master/ontology">owl</a></p>
+              </section>
+
+              <!-- Large image slide -->
+              <section>
+                <h3>Mapping from LL to QuakeStudies</h3>
+                <img class="img-centered" src="img/SCIRT%20Collection%20Structure%20flowchart%20v2.png" width="800" height="600"/>
+              </section>
+
+                <!-- Slide with list items (list items are displayed at once) -->
+                <section>
+                  <h3>Discovery & Analysis phase</h3>
+                  <ul>
+                    <li>Want responsive site with mapping to QuakeStudies</li>
+                    <li>Options: 
+                      <ul>
+                        <li>Lightweight wrapper, e.g. Django, node.js</li>
+                        <li>Extend Remote Entities approach</li>
+                        <li><a href="http://islandora.ca/">Islandora</a></li>
+                      </ul>
+                    </li>
+                    <li>Chosen path: extend Remote Entities approach</li>
+                  </ul>
+                </section>
+              </section>
+
+              <section>
+                <h3>Drupal Remote Entities</h3>
+                <ul>
+                  <li>Fedora Commons REST API -> Fedora Commons API wrapper (e.g. Tuque) -> Clients module</li>
+                  <li>Declare to Drupal as remote entity: fedoraentity.module, bundles: Collection, Object, Part, License</li>
+                  <li>In QuakeStudies: top <a href="https://quakestudies.canterbury.ac.nz/store/collection/735">collection/735</a> <a href="/img/quakestudies_collection_735+top.png">#</a></li>
+                  <li>match: Communications and Community (<a href="https://quakestudies.canterbury.ac.nz/store/collection/741">collection:741</a> <a href="/img/quakestudies_collection_741_communications_and_community.png">#</a> -> <a href="https://scirt-llp.catalystdemo.net.nz/theme/communications-and-community">/theme/communications-and-community</a>)</li>
+                  <li>Web Service Clients: <a href="https://scirt-llp.catalystdemo.net.nz/admin/structure/clients/connections/manage/fedoraapi">config</a></li>
+                  <li>local Solr</li>
+                  <li>Some fields streamed from QuakeStudies: e.g. videos</li>
+                </ul>
+              </section>
+
+              <!-- Large image slide -->
+              <section>
+                <h3>QS, LL Architecture</h3>
+                <img class="img-centered" src="/img/quakestudies_architecture.svg" width="800" height="500"/>
+              </section>
+
+              <!-- Large image slide -->
+              <section>
+                <h3>"top" collection</h3>
+                <img class="img-centered" src="/img/quakestudies_architecture.svg" width="800" height="500"/>
+              </section>
+
+              <!-- Slide with list items (list items are displayed at once) -->
+              <section>
+                <h3>Lessons</h3>
+                <ul>
+                  <li>Multi-stakeholder consortiums are hard work</li>
+                  <li>Re-use is possible: of architecture, code</li>
+                  <li>Open source communities delivering increasingly powerful components</li>
+                </ul>
+              </section>
+
+
+              <!-- Slide with list items (list items are displayed at once) -->
+              <section>
+                <h3>More info</h3>
+                <ul>
+                  <li>Florian Loretan <a href="http://www.wunderkraut.com/blog/remote-entities-in-drupal-7/2012-10-25">http://www.wunderkraut.com/blog/remote-entities-in-drupal-7/2012-10-25</a></li>
+                  <li><a href="http://colans.net/blog/integrating-remote-data-drupal-7-and-exposing-it-views">http://colans.net/blog/integrating-remote-data-drupal-7-and-exposing-it-views</a></li>
+                  <li>Social media entities/APIs via <a href="https://www.drupal.org/project/fluxkraft">https://www.drupal.org/project/fluxkraft</a></li>
+                  <li><a href="https://events.drupal.org/barcelona2015/sessions/remote-entities-standardizing-external-integrations-drupal">Remote Entities: Standardizing External Integrations in Drupal</a> (Dave Bailey, Sep 2015)</li>
+                  <li>Early work for Fedora Commons and Drupal 8 by <a href="http://djevans.info/node/3">David Evans</a></li>
+                  <li>Remote entities in Drupal 8 via <a href="https://www.drupal.org/project/external_entities">External Entities</a></li>
+                </ul>
+              </section>
+
+
+
+
+
+
+
+            <!-- Slide with a large title -->
+            <section>
+              <h2>Thanks</h2>
+              <aside class="notes">
+                  This will only display in the notes window.
+              </aside>
+            </section>
+
+
+
+
               <!-- Slide with list items (list items are displayed at once) -->
               <section data-background="/img/ROSS9581_bw.jpg">
                 <h2>Who are we?</h2>
@@ -114,20 +211,10 @@
                 </aside>
               </section>
 
-              <!-- Large image slide -->
-              <section>
-                <h3>QS data structure (simplified)</h3>
-                <img class="img-centered" src="/img/quakestudies_data_structure.svg" width="600" height="400"/>
-                <p>Not shown: Format, Audience, Role, Event, etc.<br/>
-                Full diagram <a href="https://quakestudies.canterbury.ac.nz/owl/ceismic.gif"/>.gif</a>, ontology <a href="https://github.com/ucdh/quakestudies-docs/tree/master/ontology">owl</a></p>
-              </section>
 
-              <!-- Large image slide -->
-              <section>
-                <h3>Mapping from LL to QuakeStudies</h3>
-                <img class="img-centered" src="img/SCIRT%20Collection%20Structure%20flowchart%20v2.png" width="800" height="600"/>
-                
-              </section>
+
+
+
 
               <!-- Slide with list items (fragmented list items) -->
               <section>
