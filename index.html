@@ -66,110 +66,78 @@
                     </p>
                 </section>
 
-                <!-- Section title slide with big colour dot -->
-                <section class="title-slide">
-                    <h2 class="orange">Title goes here</h2>
-                </section>
-
-        <!-- Slide with a large title -->
-        <section>
-          <h2>Large title</h2>
-                    <aside class="notes">
-                        This will only display in the notes window.
-                    </aside>
-        </section>
-
-        <!-- Large image slide -->
-        <section class="image-slide">
-          <h2>Title</h2>
-          <img src="img/800x400.gif" alt="">
-        </section>
-
-        <!-- Slide with list items (list items are displayed at once) -->
-        <section>
-          <h3>List title</h3>
-          <ul>
-            <li>List item <img class="img-right" src="img/300x400.gif" alt="Placeholder image"></li>
-            <li>List item</li>
-            <li>List item</li>
-          </ul>
-        </section>
-
         <!-- Slide with list items (fragmented list items) -->
         <section>
-          <h3>Fragmented list</h3>
+          <h3>What's it all about?</h3>
+          <li class="fragment" style="list-style-type: none;">
+            <p style="text-align: left;">A project to capture and disseminate lessons learned from SCIRT's rebuild of Christchurch's "horizontal infrastructure"</p>
+          </li>
+          <li class="fragment" style="list-style-type: none;">
+            <img src="img/scirt_logo.gif" alt="SCIRT Logo"/>
+          </li>
+          <li class="fragment" style="list-style-type: none;">
+            <img src="img/scirt_alliance_logos.png" alt="SCIRT Funders and Alliance Logos"/>
+          </li>
+        </section>
+        
+        <section>
+          <h3>Who's involved?</h3>
           <ul>
-            <li class="fragment">List item</li>
-            <li class="fragment">List item</li>
-            <li class="fragment">List item <img class="img-centered" src="img/500x200.gif" alt="Placeholder image"></li>
+            <li class="fragment">SCIRT - documenting innovative work</li>
+            <li class="fragment">QuakeStudies - preservation & flexible architecture</li>
+            <li class="fragment">QuakeCentre - project management & key stakeholders</li>
+            <li class="fragment">Resilient Organisations - external research group</li>
+            <li class="fragment">Catalyst IT - found solutions & wrote the code</li>
           </ul>
         </section>
-
-                <!-- Slide with vertical slides underneath  -->
-                <section>
-                    <!-- Horizontal slide (This is one the same level as slide above) -->
-                    <section class="title-slide banner-3">
-                        <h2 class="yellow">Title (press down to see vertical slides)</h2>
-                    </section>
-
-                    <!-- The following slides are vertical, use down arrow key to navigate -->
-          <!-- Centered paragraph  -->
-          <section>
-            <h3>Paragraph</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris at scelerisque eros. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Aliquam placerat posuere nibh vel dapibus.</p>
-          </section>
-
-          <!-- Blockquote  -->
-          <section>
-            <h3>Blockquote</h3>
-            <blockquote class="quotation-marks">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris at scelerisque eros. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Aliquam placerat posuere nibh vel dapibus.
-            </blockquote>
-          </section>
-
-          <!-- Nested lists-->
-          <section>
-            <h3>Nested lists</h3>
-              <ul>
-                <li>One</li>
-                <li>Two</li>
-                <li>Three</li>
-                  <ul>
-                    <li>Nested One</li>
-                    <li>Nested Two</li>
-                  </ul>
-              </ul>
-          </section>
+        <section data-background="img/WAYNE-YOULE.jpg">
+            <h3>
         </section>
 
-        <!-- Slide with code block -->
+        <section data-background="img/SCIRTSafety-0588.jpg">
+        </section>
+        
         <section>
-          <h3>Title</h3>
-          <p>Some text</p>
-                    <pre><code data-trim contenteditable>
-function linkify( selector ) {
-    if( supports3DTransforms ) {
+          <h3>Learning Legacy concept</h3>
+          <ul>
+              <li class="fragment">Capture important information before it is lost</li>
+              <li class="fragment">Develop a digital archiving programme for rebuild agencies</li>
+              <li class="fragment">CEISMIC Learning Legacy Scholarships</li>
+              <li class="fragment">An opportunity to open-source and develop the platform for future</li>
+          </ul>
+        </section>
+        <!-- Slide with vertical slides underneath  -->
+        <section>
+            <!-- Horizontal slide (This is one the same level as slide above) -->
+            <section class="title-slide banner-3">
+                <h2 class="yellow">Site design and development</h2>
+            </section>
 
-        var nodes = document.querySelectorAll( selector );
+            <!-- The following slides are vertical, use down arrow key to navigate -->
+            <!-- Centered paragraph  -->
+            <section>
+                <h3>Audience analysis</h3>
+                <img src="img/audience.png"/>
+            </section>
 
-        for( var i = 0, len = nodes.length; i < len; i++ ) {
-            var node = nodes[i];
+            <section>
+                <h3>Design</h3>
+                <img src="img/design_screenshot.png"/>
+            </section>
 
-            if( !node.className ) {
-                node.className += ' roll';
-            }
-        }
-    }
-}
-                    </code></pre>
+            <section>
+                <h3>Themes</h3>
+                <img src="img/themes_screenshot.png"/>
+            </section>
+
+            <section>
+                <h3>Stories</h3>
+                <img src="img/gabion1.png"/>
+                <img src="img/gabion2.png"/>
+            </section>
         </section>
 
-                <!-- Slide with full background image -->
-                <section data-background="img/800x600.gif">
-                    <h3>Image backgrounds</h3>
-                </section>
-
-        <!-- Slide with Catalyst slogan -->
+         <!-- Slide with Catalyst slogan -->
         <section class="image-slide">
           <img class="cat-slogan-image" src="css/theme/images/freedom-to-innovate.svg" alt="freedom to innovate">
         </section>
@@ -212,7 +180,7 @@ function linkify( selector ) {
                 // Parallax scrolling
                 // parallaxBackgroundImage: 'https://s3.amazonaws.com/hakim-static/reveal-js/reveal-parallax-1.jpg',
                 // parallaxBackgroundSize: '2100px 900px',
-
+                
                 // Optional libraries used to extend on reveal.js
                 dependencies: [
                     { src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
