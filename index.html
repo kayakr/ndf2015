@@ -83,6 +83,81 @@
                 <p>&nbsp;</p>
               </section>
 
+
+              <!-- Slide with list items (fragmented list items) -->
+              <section>
+                <h3>What's it all about?</h3>
+                <li class="fragment" style="list-style-type: none;">
+                  <p style="text-align: left;">A project to capture and disseminate lessons learned from SCIRT's rebuild of Christchurch's "horizontal infrastructure"</p>
+                </li>
+                <li class="fragment" style="list-style-type: none;">
+                  <img src="img/scirt_logo.gif" alt="SCIRT Logo"/>
+                </li>
+                <li class="fragment" style="list-style-type: none;">
+                  <img src="img/scirt_alliance_logos.png" alt="SCIRT Funders and Alliance Logos"/>
+                </li>
+              </section>
+        
+              <section>
+                <h3>Who's involved?</h3>
+                <ul>
+                  <li class="fragment">SCIRT - documenting innovative work</li>
+                  <li class="fragment">QuakeStudies - preservation & flexible architecture</li>
+                  <li class="fragment">QuakeCentre - project management & key stakeholders</li>
+                  <li class="fragment">Resilient Organisations - external research group</li>
+                  <li class="fragment">Catalyst IT - found solutions & wrote the code</li>
+                </ul>
+              </section>
+              
+              <section data-background="img/WAYNE-YOULE.jpg">
+              </section>
+
+              <section data-background="img/SCIRTSafety-0588.jpg">
+              </section>
+        
+              <section>
+                <h3>Learning Legacy concept</h3>
+                <ul>
+                    <li class="fragment">Capture important information before it is lost</li>
+                    <li class="fragment">Develop a digital archiving programme for rebuild agencies</li>
+                    <li class="fragment">CEISMIC Learning Legacy Scholarships</li>
+                    <li class="fragment">An opportunity to open-source and develop the platform for future</li>
+                </ul>
+              </section>
+
+              <!-- grouped section -->
+              <section>
+                  <!-- Horizontal slide (This is one the same level as slide above) -->
+                  <section class="title-slide banner-3">
+                      <h2 class="yellow">Site design and development</h2>
+                  </section>
+
+                  <!-- The following slides are vertical, use down arrow key to navigate -->
+                  <!-- Centered paragraph  -->
+                  <section>
+                      <h3>Audience analysis</h3>
+                      <img src="img/audience.png"/>
+                  </section>
+
+                  <section>
+                      <h3>Design</h3>
+                      <img src="img/design_screenshot.png"/>
+                  </section>
+
+                  <section>
+                      <h3>Themes</h3>
+                      <img src="img/themes_screenshot.png"/>
+                  </section>
+
+                  <section>
+                      <h3>Stories</h3>
+                      <img src="img/gabion1.png"/>
+                      <img src="img/gabion2.png"/>
+                  </section>
+              </section>
+
+
+
               <!-- Large image slide -->
               <section>
                 <h3>QS data structure (simplified)</h3>
@@ -97,21 +172,20 @@
                 <img class="img-centered" src="img/SCIRT%20Collection%20Structure%20flowchart%20v2.png" width="800" height="600"/>
               </section>
 
-                <!-- Slide with list items (list items are displayed at once) -->
-                <section>
-                  <h3>Discovery & Analysis phase</h3>
-                  <ul>
-                    <li>Want responsive site with mapping to QuakeStudies</li>
-                    <li>Options: 
-                      <ul>
-                        <li>Lightweight wrapper, e.g. Django, node.js</li>
-                        <li>Extend Remote Entities approach</li>
-                        <li><a href="http://islandora.ca/">Islandora</a></li>
-                      </ul>
-                    </li>
-                    <li>Chosen path: extend Remote Entities approach</li>
-                  </ul>
-                </section>
+              <!-- Slide with list items (list items are displayed at once) -->
+              <section>
+                <h3>Discovery & Analysis phase</h3>
+                <ul>
+                  <li>Want responsive site with mapping to QuakeStudies</li>
+                  <li>Options: 
+                    <ul>
+                      <li>Lightweight wrapper, e.g. Django, node.js</li>
+                      <li>Extend Remote Entities approach</li>
+                      <li><a href="http://islandora.ca/">Islandora</a></li>
+                    </ul>
+                  </li>
+                  <li>Chosen path: extend Remote Entities approach</li>
+                </ul>
               </section>
 
               <section>
@@ -263,34 +337,8 @@
           </section>
         </section>
 
-        <!-- Slide with code block -->
-        <section>
-          <h3>Title</h3>
-          <p>Some text</p>
-                    <pre><code data-trim contenteditable>
-function linkify( selector ) {
-    if( supports3DTransforms ) {
 
-        var nodes = document.querySelectorAll( selector );
-
-        for( var i = 0, len = nodes.length; i < len; i++ ) {
-            var node = nodes[i];
-
-            if( !node.className ) {
-                node.className += ' roll';
-            }
-        }
-    }
-}
-                    </code></pre>
-        </section>
-
-                <!-- Slide with full background image -->
-                <section data-background="img/800x600.gif">
-                    <h3>Image backgrounds</h3>
-                </section>
-
-        <!-- Slide with Catalyst slogan -->
+         <!-- Slide with Catalyst slogan -->
         <section class="image-slide">
           <img class="cat-slogan-image" src="css/theme/images/freedom-to-innovate.svg" alt="freedom to innovate">
         </section>
@@ -338,7 +386,7 @@ function linkify( selector ) {
                 // Parallax scrolling
                 // parallaxBackgroundImage: 'https://s3.amazonaws.com/hakim-static/reveal-js/reveal-parallax-1.jpg',
                 // parallaxBackgroundSize: '2100px 900px',
-
+                
                 // Optional libraries used to extend on reveal.js
                 dependencies: [
                     { src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
