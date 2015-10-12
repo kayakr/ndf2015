@@ -1,0 +1,74 @@
+Who is involved?
+----------------
+
+A collaborative project between SCIRT and earthquake research centers at the University of Canterbury
+
+SCIRT: want to communicate their rebuild work. Specifically, the objectives were:
+* To capture new ideas an approaches before people leave SCIRT for other roles and knowledge is lost
+* To make knowledge accessible to a wider audience, both national and international, in a way in which it can be understood and applied elsewhere.
+
+CEISMIC: is collecting digital content relating to the earthquakes and creating an archive for research and community use. QuakeStudies is a dedicated repository at the University of Canterbury.
+
+QuakeCentre: is an industry-funded research centre promoting awareness of earthquake hazards and engineering solutions
+
+ResOrgs: a research group focused on organisational resilience from many perspectives, including engineering, managment, organizational psychology, sociology and business.
+
+Catalyst IT: open source IT specialists
+
+
+Temporary
+---------
+
+* I seem to have temporarily misplaced my sense of humour by Wayne Youle (Sydenham, Chch)
+* It's about things lost through the quake years - loaned tools, possessions, pets, relationships
+* It's also about a sense of the temporary, and the power of memory to return us to some kind of order
+* The work done by agencies like SCIRT to rebuild the city is also temporary, and disappears from public view when it is completed.
+* A lot of money and resource is going into the infrastructure rebuild, and the time to document and communicate the things that have been learned is short.
+* We collectively developed the Learning Legacy concept to try to intervene in a situation where necessity still forces us to misplace things; and instead to promote digital preservation and greater public communication of knowledge gained through the rebuild of Christchurch.
+
+Invisibility
+------------
+
+* CEISMIC develops research + public/community archives. It is part cultural heritage, part research project. 
+* The idea is to make things visible, which is especially important with such a major programme of civil engineering that is largely located underground.
+* SCIRT's learning legacy is important both to the general public and to specialists: planners, engineers and project managers are keenly interested in the knowledge created in Christchurch. SCIRT has also been recognised by the Institute of Civil Engineers (UK) for its engineering innovation. The Learning Legacy may be in part about good PR too, but they prompt scrutiny of what gets preserved and made available, so we are aiming to do further similar projects.
+
+Learning Legacy concept
+-----------------------
+* Important to capture key information before it is lost - SCIRT planned to end December 2016.
+* Develop a digital archiving programme for rebuild agencies, or other organisations that have had a key role - eg talks with CERA, CEISMIC already has worked with many others like community/urban renewal innovators Gap Filler. Although CEISMIC represents the cultural heritage sector, a more directed, learning legacy type project in that area could have important outcomes for Wellington and other NZ cities. 
+* CEISMIC Learning Legacy Scholarships - we're promoting research alongside these archiving/storytelling efforts through funded Masters scholarships - currently four funded, including one looking at art collections management.
+* An opportunity to open-source and develop the platform, as Jonathan will describe.
+
+
+Site Design and Development
+---------------------------
+
+_Audience Analysis_
+
+Interviewees such as:
+* Fulton Hogan
+* Fletchers
+* Beca
+* Lyttelton Port Company
+* Christchurch City Council 
+
+_Design_
+
+* Catalyst developed two designs and one was chosen
+* The project will enable SCIRT to present the stories and material in a front end with a 'family resemblance' to their main website.
+* Content is stored in the QuakeStudies repository and retrieved via Fedora Commons API.
+* The site uses Drupal, like QuakeStudies itself.
+
+_Themes_
+
+* The content development was a major undertaking in itself
+* The project was modelled on the London Olympics Learning legacy project
+* Like that project, the content is divided into a number of themes as you see here
+
+_Stories_
+
+* There are a number of Stories in each theme, each with a write-up and various supporting documents, attachments and metadata.
+* We should really acknowledge the work of SCIRT staff and in particular project manager Cathy Gillespie from Quake Centre, who did much work in identifying, writing up, editing and preparing stories.
+
+
